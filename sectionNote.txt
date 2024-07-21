@@ -1,0 +1,31 @@
+<?php 
+    include 'sidebar.php';
+?>
+
+        <div class="dashboard-content">
+            <div class="box"></div>
+        </div>
+    </section>
+</body>
+<script src="javascript/script.js"></script>
+</html>
+
+
+
+success-alert
+false-alert
+<i class="bx bxs-check-circle"></i>
+<i class='bx bxs-x-circle'></i>
+    if(isset($_GET['update'])){
+        echo '
+            <div class="alert false-alert" id="alert-box">
+                <div class="message">
+                    <i class="bx bxs-x-circle"></i>
+                    <p>Department Create False</p>
+                </div>
+                <button id="hide">
+                    <i class="bx bx-x"></i>
+                </button>
+            </div>
+        ';
+    }
